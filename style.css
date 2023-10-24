@@ -18,20 +18,13 @@ nav {
   color: #d9792b;
 }
 
-* {box-sizing:border-box}
-
 /* Slideshow container */
 .image-carousel {
-  max-width: auto;
+  width: 100vh;
   height: 50vh;
   position: relative;
   margin: auto;
 }
-
-/* Hide the images by default
-.mySlides {
-  display: none;
-} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -63,12 +56,13 @@ nav {
 /* Caption text */
 .text {
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: bottom;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* The dots/bullets/indicators */
