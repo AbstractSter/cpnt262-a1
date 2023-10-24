@@ -1,0 +1,19 @@
+/* Nav Bar Title */
+.nav-title {
+  font-family: 'Merriweather', serif;
+  font-size: 60px;
+  padding: 1rem;
+  color: #d9792b;
+}
+
+/* Nav Flex Container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+  width: 100%;
+  
+  background-color: #1f4865;
+  color: #d9792b;
+}
