@@ -22,10 +22,11 @@ nav {
 
 /* Slideshow container */
 .image-carousel {
-  max-width: 1000px;
-  height: 50vh;
+  width: 700px;
+  height: 700px;
   position: relative;
   margin: auto;
+  object-fit: cover;
 }
 
 /* Next & previous buttons */
