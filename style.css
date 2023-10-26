@@ -11,9 +11,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  
   width: 100%;
-  
   background-color: #1f4865;
   color: #d9792b;
 }
@@ -22,9 +20,9 @@ nav {
 
 /* Slideshow container */
 .image-carousel {
-  width: 700px;
-  height: 700px;
-  position: relative;
+  max-height: 100vh;
+  width: auto;
+  max-width: 100%;
   margin: auto;
   object-fit: cover;
 }
