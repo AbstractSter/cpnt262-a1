@@ -18,8 +18,57 @@ nav {
 
 * {box-sizing:border-box}
 
+/* Nav Bar Menu Flexbox */
+nav .nav-bar-menu-buttons {
+  display: flex;
+  justify-content: flex-end;
+
+  list-style: none;
+  padding-right: 1rem;
+}
+
+
+/* Main Nav Bar */
+.nav-bar-menu-buttons li {
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid #f7b684;
+}
+
+/* Nav Bar Buttons */
+.nav-bar-menu-buttons a {
+  text-align: center;
+  color: #f7b684;
+  text-decoration: none;
+}
+
+/* Nav Bar Hover Effect */
+nav li:hover {
+  background-color: #d76100;
+  transition: 0.5s;
+  }
+
+/* Active Page Status */
+.active {
+  background-color: #5a5959;
+  border-radius: .5rem;
+}
+
+/* Nav Bar Title */
+a, a:hover {
+  color: #d9792b;
+
+  text-decoration: none;
+}
+
+/* Nav Bar Title Hover Effect */
+a:hover {
+  color: #bfbdbb;
+}
+
 /* Slideshow container */
 .image-carousel {
+  height: auto;
   max-height: 100vh;
   width: auto;
   max-width: 100%;
@@ -91,4 +140,33 @@ nav {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+footer {
+  /* Sticky Footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+
+  font-family: 'Inclusive Sans', sans-serif;
+  background-color: #d9792b;
+  padding: 1rem;
+}
+
+footer p {
+  /* Copyright */
+  text-align: center;
+  padding: 5px;
+  color: #1f4865;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1f4865;
+}
+
+footer a:hover {
+  background-color: #d1af92;
+  transition: 0.5s;
 }
