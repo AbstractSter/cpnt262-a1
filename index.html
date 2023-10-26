@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery</title>
   <link rel="stylesheet" href="style.css">
-  <script src="client.js"></script>
+  <script src="client.js" type="module" defer></script>
 </head>
   <body>
     <nav>
@@ -21,19 +21,20 @@
 
 
 <!-- THIS WAS AN ATTEMPT TO RENDER MY IMAGE CAROUSEL GALLERY THROUGH JAVASCRIPT -->
-    <!-- <div class="image-carousel">
+<div id="image-array">
+ 
   <div class="carousel">
     <div class="carousel-inner">
       <button class="prev-button">&#10094</button>
       <button class="next-button">&#10095</button>
     </div>
-  </div> -->
+  </div>
   
 
 
   <!-- EVERYTHING BELOW THIS LINE IS THE ORIGINAL CAROUSEL SET UP WITH HTML -->
   <!-- Full-width images with number and caption text -->
-<div class="image-carousel">
+<!-- <div class="image-carousel">
   <div class="feature-images">
     <img src="images/una-pizza-1.JPG" width="100%">
     <div class="text">Una Pizza & Wine - Large</div>
@@ -67,7 +68,7 @@
   <div class="feature-images">
     <img src="images/headshot.jpg" style="width:100%">
     <div class="text">Head shot</div>
-  </div>
+  </div> -->
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

@@ -1,30 +1,25 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+const imageArray = [
+  { src: "images/una-pizza-1.jpg", alt: "Una Pizza + Wine 17th Ave" },
+  { src: "images/una-pizza-2.jpg", alt: "Una Pizza + Wine 17th Ave" },
+  { src: "images/process-pic.jpg", alt: "2022 YYC BUMP Roadworks Program" },
+  { src: "images/headshot.jpg", alt: "Headshot" },
+  { src: "images/target-practice.jpg", alt: "Target Practice" },
+  { src: "images/bike-day.jpg", alt: "Kloosifier Loop" },
+  { src: "images/majestic.jpg", alt: "Natural Habitat" },
+];
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// Modifying the original imageArray with HTML image elements
+const imageElements = imageArray.map((image) => {
+  return `<img src="${image.src}" alt="${image.alt}" />`;
+});
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// Assigning the result of map() back to imageArray
+const updatedImageArray = imageArray.map((image) => {
+  return `<img src="${image.src}" alt="${image.alt}" />`;
+});
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("feature-images");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+// Logging the updated imageArray
+console.log(updatedImageArray);
 
-
+document.querySelector("#image-array").innerHTML = updatedImageArray;
+// galleryElement.innerHTML = imageElements.join(``);

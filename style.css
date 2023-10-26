@@ -66,6 +66,12 @@ a:hover {
   color: #bfbdbb;
 }
 
+img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
 /* Slideshow container */
 .image-carousel {
   height: auto;
