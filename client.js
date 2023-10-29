@@ -6,6 +6,8 @@ const imageArray = [
   { src: "images/target-practice.jpg", alt: "Target Practice" },
   { src: "images/bike-day.jpg", alt: "Kloosifier Loop" },
   { src: "images/majestic.jpg", alt: "Natural Habitat" },
+  { src: "images/pink-peaks.jpg", alt: "Pink Peaks" },
+  { src: "images/electronic-monolith-4.0.jpg", alt: "Electronic Monolith 4.0" },
 ];
 
 // Modifying the original imageArray with HTML image elements
@@ -23,3 +25,13 @@ console.log(updatedImageArray);
 
 document.querySelector("#image-array").innerHTML = updatedImageArray;
 // galleryElement.innerHTML = imageElements.join(``);
+
+
+// Hamburger Menu Toggle
+const mobileMenuButton = document.getElementById('menu-toggle');
+const menu = document.getElementById('menu');
+
+mobileMenuButton.addEventListener('click', () => {
+  menu.classList.toggle('show');
+  mobileMenuButton.classList.toggle('close'); // Toggle 'close' class for close icon effect
+});
