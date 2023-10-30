@@ -23,8 +23,8 @@ const updatedImageArray = imageArray.map((image) => {
 // Logging the updated imageArray
 console.log(updatedImageArray);
 
-document.querySelector("#image-array").innerHTML = updatedImageArray;
-// galleryElement.innerHTML = imageElements.join(``);
+document.querySelector("#image-array").innerHTML = updatedImageArray.join(' ');
+galleryElement.innerHTML = imageElements.join(' ');
 
 
 // Hamburger Menu Toggle
