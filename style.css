@@ -35,13 +35,6 @@ nav .nav-bar-menu-buttons {
   border: 1px solid #f7b684;
 }
 
-/* Nav Bar Buttons */
-/* .nav-bar-menu-buttons a {
-  text-align: center;
-  color: #f7b684;
-  text-decoration: none;
-} */
-
 /* Nav Bar Hover Effect */
 nav li:hover {
   background-color: #d76100;
@@ -102,11 +95,6 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(112, 227, 55, 0.8);
-}
-
 /* Caption text */
 .text {
   color: black;
@@ -119,26 +107,8 @@ img {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
 .active, .dot:hover {
   background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
 }
 
 footer {
@@ -170,8 +140,26 @@ footer a:hover {
   transition: 0.5s;
 }
 
+/* Hamburger Menu Icon */
+/* @media screen (max-width: 400px) {
+  .nav-bar-menu-buttons {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+};
+
+@media screen (min-width: 600px) {
+  .nav-bar-menu-buttons {
+    display: flex;
+  }
+  .menu-toggle {
+    display: none;
+  }
+} */
 /* Hamburger menu toggle */
-@media screen and (max-width: 600px), (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .nav-bar-menu-buttons li {
     display: none;
   }
@@ -181,6 +169,6 @@ footer a:hover {
   }
 
   .menu-toggle {
-    display: flex;
+    display: none;
   }
 }
