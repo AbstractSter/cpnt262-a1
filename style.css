@@ -40,6 +40,13 @@ nav .nav-bar-menu-buttons {
   display: flex;
 }
 
+/* Click-me button  */
+.click-me:hover {
+  background-color: #d9792b;
+  color: aqua;
+  transition: 0.75s;
+}
+
 /* Nav Bar Hover Effect */
 nav li:hover {
   background-color: #d76100;
