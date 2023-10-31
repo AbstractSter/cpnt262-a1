@@ -45,6 +45,8 @@ nav .nav-bar-menu-buttons {
   background-color: #d9792b;
   color: aqua;
   transition: 0.75s;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* Nav Bar Hover Effect */
