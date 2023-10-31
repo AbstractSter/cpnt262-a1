@@ -1,3 +1,5 @@
+"use strict";
+
 const imageArray = [
   { src: "images/una-pizza-1.jpg", alt: "Una Pizza + Wine 17th Ave" },
   { src: "images/una-pizza-2.jpg", alt: "Una Pizza + Wine 17th Ave" },
