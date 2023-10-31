@@ -3,6 +3,10 @@ CPNT 262 - Assignment 1 - Bring a webpage to life
 
 ## Author: Sterling Smith
 
+### Implemented Features
+- Image Array - Line 1 - client.js
+- Rendering the image array with out "," inbetween pictures - Line 26-27 - client.js
+
 ### Attributions:
 - Pieces of code from CPNT 260 Final Project
 - [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Slideshow gallery code and examples
