@@ -27,12 +27,17 @@ nav .nav-bar-menu-buttons {
   padding-right: 1rem;
 }
 
+/* Menu Toggle */
+.menu-toggle {
+  display: none;
+}
 
 /* Main Nav Bar */
 .nav-bar-menu-buttons li {
   padding: 1rem;
   border-radius: .5rem;
   border: 1px solid #f7b684;
+  display: flex;
 }
 
 /* Nav Bar Hover Effect */
@@ -54,45 +59,11 @@ a, a:hover {
   text-decoration: none;
 }
 
-
-
 /* Image properties */
 img {
   height: 400px;
   width: 400px;
   object-fit: cover;
-}
-
-/* Slideshow container */
-.image-carousel {
-  height: auto;
-  max-height: 100vh;
-  width: auto;
-  max-width: 100%;
-  margin: auto;
-  object-fit: cover;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: rgb(245, 100, 223);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 /* Caption text */
@@ -105,10 +76,6 @@ img {
   width: 100%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
 }
 
 footer {
@@ -140,35 +107,15 @@ footer a:hover {
   transition: 0.5s;
 }
 
-/* Hamburger Menu Icon */
-/* @media screen (max-width: 400px) {
-  .nav-bar-menu-buttons {
-    display: none;
-  }
-  .menu-toggle {
-    display: flex;
-  }
-};
-
-@media screen (min-width: 600px) {
-  .nav-bar-menu-buttons {
-    display: flex;
-  }
-  .menu-toggle {
-    display: none;
-  }
-} */
 /* Hamburger menu toggle */
 @media screen and (max-width: 600px) {
-  .nav-bar-menu-buttons li {
+  .nav-bar-menu-buttons li{
     display: none;
   }
+}
 
-  .nav-bar-menu-buttons.show {
-    display: flex;
-  }
-
+@media screen and (max-width: 600px) {
   .menu-toggle {
-    display: none;
+    display: flex;
   }
 }
