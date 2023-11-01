@@ -9,7 +9,7 @@ CPNT 262 - Assignment 1 - Bring a webpage to life
 
 ### Attributions:
 - Pieces of code from CPNT 260 Final Project
-- [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Slideshow gallery code and examples
+- [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Slideshow gallery examples
 - [W3 Schools](https://www.w3schools.com/js/js_strict.asp) - Hamburger menu toggle
 - [YouTube](https://www.youtube.com/watch?v=z3Y5gJWmVVU) - Mr. Web Designer - Responsive video gallery
 - [Formspree](https://formspree.io/forms/xzblkqla/integration)
