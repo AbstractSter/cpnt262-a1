@@ -30,10 +30,19 @@ galleryElement.innerHTML = imageElements.join(' ');
 
 
 // Hamburger Menu Toggle
-const mobileMenuButton = document.getElementById('menu-toggle');
-const menu = document.getElementById('menu');
+// const mobileMenuButton = document.getElementById('menu-toggle');
+// const menu = document.getElementById('menu');
 
-mobileMenuButton.addEventListener('click', () => {
-  menu.classList.toggle('show');
-  mobileMenuButton.classList.toggle('close'); // Toggle 'close' class for close icon effect
-});
+// mobileMenuButton.addEventListener('click', () => {
+//   menu.classList.toggle('show');
+//   mobileMenuButton.classList.toggle('close'); // Toggle 'close' class for close icon effect
+// });
+
+function myFunction() {
+  const x = document.getElementById("menu-toggle");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

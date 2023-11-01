@@ -13,5 +13,5 @@ CPNT 262 - Assignment 1 - Bring a webpage to life
 - [W3 Schools](https://www.w3schools.com/js/js_strict.asp) - Hamburger menu toggle
 - [YouTube](https://www.youtube.com/watch?v=z3Y5gJWmVVU) - Mr. Web Designer - Responsive video gallery
 - [Formspree](https://formspree.io/forms/xzblkqla/integration)
-- Classmate help: Chad Cervantes, Kevin Fula, Sydney Bruce, John Dagsa
+- Classmate help: Chad Cervantes, Kevin Fula, Sydney Bruce, John Dagsa, Ashkie Esperanza, Robbie Soriano
 - Instructor help: Ashlyn Knox, Tony Grimes
